@@ -18,8 +18,4 @@
     <PackageReference Include="SQLite" />
   </ItemGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\Email.Domain\Email.Domain.csproj" />
-  </ItemGroup>
-
 </Project>
