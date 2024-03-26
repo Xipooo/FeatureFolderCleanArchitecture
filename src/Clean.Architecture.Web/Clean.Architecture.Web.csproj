@@ -21,8 +21,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Clean.Architecture.Infrastructure\Clean.Architecture.Infrastructure.csproj" />
-    <ProjectReference Include="..\Clean.Architecture.UseCases\Clean.Architecture.UseCases.csproj" />
+    <ProjectReference Include="..\..\Contributors\Contributors.Domain.csproj" />
+    <ProjectReference Include="..\..\Email.Domain\Email.Domain.csproj" />
   </ItemGroup>
 
 </Project>

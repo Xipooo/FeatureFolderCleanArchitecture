@@ -1,6 +1,6 @@
 ﻿using Ardalis.SharedKernel;
-using Clean.Architecture.Core.ContributorAggregate;
-using Clean.Architecture.UseCases.Contributors.Create;
+using Clean.Architecture.Contributors.Domain;
+using Clean.Architecture.Contributors.Domain.CreateContributor;
 using FluentAssertions;
 using NSubstitute;
 using Xunit;

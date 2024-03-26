@@ -1,6 +1,6 @@
-﻿using Clean.Architecture.Core.ContributorAggregate;
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
 using Xunit;
+using Clean.Architecture.Contributors.Domain;
 
 namespace Clean.Architecture.IntegrationTests.Data;
 

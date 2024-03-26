@@ -1,6 +1,5 @@
 ﻿using Ardalis.SharedKernel;
-using Clean.Architecture.Core.ContributorAggregate;
-using Clean.Architecture.Infrastructure.Data;
+using Clean.Architecture.Contributors.Domain;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using NSubstitute;

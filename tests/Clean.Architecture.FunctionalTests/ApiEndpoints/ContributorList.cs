@@ -1,6 +1,6 @@
 ﻿using Ardalis.HttpClientTestExtensions;
-using Clean.Architecture.Infrastructure.Data;
-using Clean.Architecture.Web.Contributors;
+using Clean.Architecture.Contributors.Domain;
+using Clean.Architecture.Contributors.Domain.ListContributors;
 using Xunit;
 
 namespace Clean.Architecture.FunctionalTests.ApiEndpoints;
@@ -13,7 +13,7 @@ public class ContributorList(CustomWebApplicationFactory<Program> factory) : ICl
   [Fact]
   public async Task ReturnsTwoContributors()
   {
-    var result = await _client.GetAndDeserializeAsync<ContributorListResponse>("/Contributors");
+    var result = await _client.GetAndDeserializeAsync<ListContributorsEndpointResponse>("/Contributors");
 
     Assert.Equal(2, result.Contributors.Count);
     Assert.Contains(result.Contributors, i => i.Name == SeedData.Contributor1.Name);

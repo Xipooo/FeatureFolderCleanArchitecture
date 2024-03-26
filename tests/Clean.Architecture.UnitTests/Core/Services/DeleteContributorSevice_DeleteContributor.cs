@@ -1,6 +1,6 @@
 ﻿using Ardalis.SharedKernel;
-using Clean.Architecture.Core.ContributorAggregate;
-using Clean.Architecture.Core.Services;
+using Clean.Architecture.Contributors.Domain;
+using Clean.Architecture.Contributors.Domain.DeleteContributor;
 using MediatR;
 using Microsoft.Extensions.Logging;
 using NSubstitute;

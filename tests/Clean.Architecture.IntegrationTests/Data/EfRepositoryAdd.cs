@@ -1,4 +1,4 @@
-﻿using Clean.Architecture.Core.ContributorAggregate;
+﻿using Clean.Architecture.Contributors.Domain;
 using Xunit;
 
 namespace Clean.Architecture.IntegrationTests.Data;

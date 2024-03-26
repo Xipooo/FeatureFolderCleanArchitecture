@@ -1,4 +1,4 @@
-﻿using Clean.Architecture.Infrastructure.Data;
+﻿using Clean.Architecture.Contributors.Domain;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc.Testing;
 using Microsoft.Extensions.DependencyInjection;
